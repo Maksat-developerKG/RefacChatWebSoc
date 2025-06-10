@@ -16,7 +16,7 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://192.168.0.105:8000/api/users/register/', {
+      const response = await fetch('http://192.168.0.103:8000/api/users/register/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
